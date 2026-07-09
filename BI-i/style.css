@@ -5,6 +5,7 @@
 h2 {
     background-image: url(images.jpg);
     padding: 40px;
+    background-repeat: no-repeat;
 }
 
 .bg-gradient {
