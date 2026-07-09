@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body {
+    background-image: url(pattern.jpg);
+    color: red;
+}
+
+h1 {
+    background-image: linear-gradient(
+        0deg,
+        black 70%,
+        rgb(164, 164, 164) );
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 70px;
+        margin: 1em;
+        border: 10 solid black;
+}
+
+
+h2 {
+    background-color: rgb(51, 51, 51);
+    color: rgb(165, 165, 165);
+    text-align: center;
+    font-weight: bolder;
+    padding: 50px;
+}
+
+.full {
+    background-image: url(images.jpg);
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    padding: 50px;
+}
